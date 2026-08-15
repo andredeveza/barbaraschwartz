@@ -1,0 +1,29 @@
+/* DESIGN TOKENS - BÁRBARA SCHWARTZ */
+
+:root {
+    /* Colors */
+    --bs-color-dark: #494546;
+    --bs-color-taupe: #8F8583;
+    --bs-color-accent: #E6C1A4;
+    --bs-color-bg: #FFFFFF;
+
+    /* Typography */
+    --bs-font-main: 'Devina Rodent', sans-serif;
+    --bs-font-title: 'Monstar', serif;
+
+    /* Elements (Based on interior renders) */
+    --bs-border-radius: 4px;
+    --bs-shadow-soft: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+body {
+    background-color: var(--bs-color-bg);
+    color: var(--bs-color-dark);
+    font-family: var(--bs-font-main);
+}
+
+h1, h2, h3 {
+    font-family: var(--bs-font-title);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
